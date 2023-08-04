@@ -1,5 +1,3 @@
-v sh-backup.sh 
-cd ..
 cp uptime.sh ~/.config/i3/scripts/uptime.sh
 cd ~/.confi
 cd i3
@@ -498,3 +496,5 @@ rclone mount --vfs-cache-mode full ode-tup: /mnt/Encrypt/
 rclone mount --vfs-cache-mode full ode-tup: ~/New
 v .config/i3/config
 clear
+ls -al
+rclone mount --vfs-cache-mode full od-tup: /mnt/Encrypt/
