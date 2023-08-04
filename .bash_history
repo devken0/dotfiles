@@ -1,9 +1,3 @@
-sudo pacman -Ss font-awesome
-v .config/i3/i3status
-v .config/i3/i3status.conf
-clear
-exit
-v repo/dotfiles/mint/
 v repo/dotfiles/mint/.config/i3/config 
 v repo/dotfiles/solus/.config/i3/config 
 clear
@@ -498,3 +492,9 @@ ls -al
 clear
 exit
 htop
+crontab -e
+clear
+exit
+rclone sync od-tup:Shared/ /mnt/Data/Shared/ -P
+clear
+exit
