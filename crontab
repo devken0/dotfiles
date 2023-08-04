@@ -4,4 +4,5 @@
 * * * * * rclone sync ~/Dropbox /mnt/Data/Dropbox
 * * * * * rclone sync ~/Repos /mnt/Data/Repos
 * * * * * rclone sync ~/Development /mnt/Data/Development
+@hourly rclone sync od-tup:Shared/ /mnt/Data/Shared
 
