@@ -1,6 +1,3 @@
-v .config/i3/i3status.conf 
-clear
-exit
 ls -l
 perl-rename
 cd /mnt/OneDrive/
@@ -496,5 +493,8 @@ v asm-backup.sh
 claer
 ls -al
 v java-backup.sh 
+clear
+exit
+crontab -e
 clear
 exit
