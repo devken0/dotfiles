@@ -1,6 +1,3 @@
-v .config/user-dirs.dirs
-cd Dropbox
-v .config/user-dirs.dirs
 clear
 exit
 ls
@@ -496,5 +493,8 @@ crontab -e
 clear
 exit
 crontab -e
+clear
+exit
+v .config/i3/config
 clear
 exit
