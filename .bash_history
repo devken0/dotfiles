@@ -1,4 +1,3 @@
-cd git-backup/
 v sh-backup.sh 
 cd ..
 cp uptime.sh ~/.config/i3/scripts/uptime.sh
@@ -498,3 +497,4 @@ fusermount --help
 rclone mount --vfs-cache-mode full ode-tup: /mnt/Encrypt/
 rclone mount --vfs-cache-mode full ode-tup: ~/New
 v .config/i3/config
+clear
