@@ -1,6 +1,3 @@
-ls -al
-clear
-v .config/mimeapps.list 
 v .config/user-dirs.dirs
 cd Dropbox
 v .config/user-dirs.dirs
@@ -495,6 +492,9 @@ sleep --help
 man sleep
 sleep 300 && alacritty
 sleep 3 && alacritty
+crontab -e
+clear
+exit
 crontab -e
 clear
 exit
