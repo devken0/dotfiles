@@ -1,6 +1,3 @@
-ls
-ls -l
-perl-rename
 clear
 exit
 crontab -e
@@ -498,3 +495,6 @@ clear
 exit
 mkdir Encrypt
 sudo mkdir Encrypt
+sudo rm -r Encrypt
+clear
+exit
