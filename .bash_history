@@ -1,6 +1,3 @@
-exit
-ls -l
-perl-rename
 cd Repos
 cd sh 
 l
@@ -496,5 +493,8 @@ v .config/i3/config
 clear
 exit
 crontab -e
+clear
+exit
+v .config/i3/config
 clear
 exit
