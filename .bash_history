@@ -1,9 +1,3 @@
-v repo/dotfiles/mint/.config/i3/config 
-v repo/dotfiles/solus/.config/i3/config 
-clear
-exit
-v .config/i3/config
-exit
 ls -al
 clear
 v .config/i3/i3status.conf
@@ -497,4 +491,10 @@ clear
 exit
 rclone sync od-tup:Shared/ /mnt/Data/Shared/ -P
 clear
+exit
+v .config/i3/config
+clear
+exit
+deja-dup --help
+deja-dup --version
 exit
