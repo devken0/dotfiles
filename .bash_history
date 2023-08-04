@@ -1,10 +1,3 @@
-ls 0al
-ls -l
-ls -a
-cd Desktop
-ls -al
-clear
-exit
 ls -al
 clear
 v .config/mimeapps.list 
@@ -498,3 +491,10 @@ clear
 exit
 rclone sync od-tup:School/ /mnt/Data/School
 rclone sync od-tup:School/ /mnt/Data/School -P
+sleep --help
+man sleep
+sleep 300 && alacritty
+sleep 3 && alacritty
+crontab -e
+clear
+exit
