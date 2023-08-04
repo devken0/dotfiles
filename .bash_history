@@ -1,6 +1,3 @@
-mkdir Working
-mkdir Final
-ls -al
 clear
 exit
 duplicati-cli 
@@ -498,3 +495,6 @@ exit
 rclone sync /mnt/Data/Archived/ ode-tup:Archived -P
 alacritty --help
 alacritty -e rclone sync /mnt/Data/Archived ode-tup:Archived/ -P
+crontab -e
+clear
+exit
