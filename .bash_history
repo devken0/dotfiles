@@ -1,4 +1,3 @@
-exit
 sudo pacman -Ss font-awesome
 v .config/i3/i3status
 v .config/i3/i3status.conf
@@ -498,3 +497,4 @@ rm try.sh
 ls -al
 clear
 exit
+htop
