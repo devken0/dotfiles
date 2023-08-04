@@ -1,6 +1,3 @@
-ls 
-crontab -e
-clear
 exit
 ls -l
 perl-rename
@@ -496,5 +493,8 @@ rclone mount --vfs-cache-mode full od-tup: /mnt/Encrypt/
 mkdir OneDrive-Backup
 sudo mkdir OneDrive-Backup
 v .config/i3/config
+clear
+exit
+crontab -e
 clear
 exit
