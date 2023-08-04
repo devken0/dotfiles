@@ -1,6 +1,3 @@
-cd i3
-ls -al
-cd scripts
 ls 
 crontab -e
 clear
@@ -498,3 +495,6 @@ ls -al
 rclone mount --vfs-cache-mode full od-tup: /mnt/Encrypt/
 mkdir OneDrive-Backup
 sudo mkdir OneDrive-Backup
+v .config/i3/config
+clear
+exit
