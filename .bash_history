@@ -1,39 +1,3 @@
-exit
-v .config/i3/i3status.conf
-clear
-exit
-v .config/i3/config
-v .config/i3/i3status.conf
-clear
-exit
-v .config/i3/config
-clear
-exit
-v .config/i3/config
-v .config/i3/i3status.conf
-clear
-exit
-clear
-exit
-v .config/i3/i3status.conf
-v .config/i3/i3status.conf
-v .config/i3/i3status.conf
-v .config/i3/config
-v .config/i3/i3status.conf
-v .config/i3/config
-v .config/i3/config
-v .config/i3/i3status.conf
-cd /mnt
-cd 'Game Drive'/
-sudo rm 'Game Drive'/
-sudo rm -r 'Game Drive'/
-cd 'NAS Data'/
-cd f7233a1a-0f48-494d-8ff8-18d793d21fa1/
-cd ..
-sudo rm -r ISOs/ 'NAS Data'/ Backups/
-cd 0A0049F60049E971/
-ls
-ls -al
 clear
 exit
 cd /mnt
@@ -498,3 +462,39 @@ ls -al
 v asm-backup.sh 
 clear
 exit
+rm py-backup.sh 
+v asm-backup.sh 
+cp asm-backup.sh ./java-backup.s
+mv java-backup.s java-backup.sh
+v java-backup.sh 
+clar
+exit
+watch nvidia-smi 
+pacman -Ss imgburn
+pacman -Ss burn
+cdrtools
+backup
+exit
+deja-dup --help
+exit
+crontab -e 
+exit
+rclone sync ~/Dropbox /mnt/Data/Dropbox
+exit
+exit
+cd Repos
+./sh-backup.sh 
+cd dotfiles
+ls -aol
+git pull
+cd sh
+cd ..
+v dotfiles
+cd git-backup/
+v dotfiles-backup.sh 
+./dotfiles-backup.sh 
+clear
+crontab -e
+cd
+ls -al
+rclone sync Development/ /mnt/Data/Development -P
