@@ -1,0 +1,6 @@
+* * * * * ~/Repos/sh/git-backup/sh-backup.sh
+#* * * * * ~/Repos/sh/git-backup/dotfiles-backup.sh
+* * * * * ~/.config/i3/scripts/uptime.sh
+#* * * * * rclone sync ~/Dropbox od-tup:Personal/backups/dropbox/
+* * * * * rclone sync ~/Dropbox /mnt/Data/Dropbox
+* * * * * rclone sync ~/Repos /mnt/Data/Repos
