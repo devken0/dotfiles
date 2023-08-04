@@ -1,8 +1,3 @@
-ls 
-cd profiles
-ls
-cd /mnt/OneDrive
-ls -al
 rm -r 01-admin/ 05-templates/ desktop.ini .dropbox .Trash-1000/ .stfolder.removed-20230428-183741/
 cd .config/i3/config
 v .config/i3/config
@@ -496,5 +491,10 @@ rclone config
 clear
 exit
 v .config/i3/config
+clear
+exit
+clear
+exit
+ls -al
 clear
 exit
