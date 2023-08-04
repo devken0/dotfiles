@@ -6,4 +6,5 @@
 * * * * * rclone sync ~/Development /mnt/Data/Development
 @hourly rclone sync od-tup:Shared/ /mnt/Data/Shared
 @hourly rclone sync od-tup:School/ /mnt/Data/School
-
+#@reboot sleep 300 && date >> ~/date.txt
+@reboot date >> ~/date.txt
