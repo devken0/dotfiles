@@ -1,4 +1,3 @@
-cd /mnt/OneDrive/
 mkdir Working
 mkdir Final
 ls -al
@@ -498,3 +497,4 @@ clear
 exit
 rclone sync /mnt/Data/Archived/ ode-tup:Archived -P
 alacritty --help
+alacritty -e rclone sync /mnt/Data/Archived ode-tup:Archived/ -P
