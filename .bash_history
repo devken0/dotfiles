@@ -1,6 +1,3 @@
-clear
-exit
-yay
 yay 
 ranger
 yay
@@ -493,6 +490,9 @@ deja-dup --help
 deja-dup --version
 exit
 v .config/i3/config
+clear
+exit
+crontab -e
 clear
 exit
 crontab -e
