@@ -1,5 +1,3 @@
-clear
-exit
 duplicati-cli 
 duplicati-cli googledrive
 duplicati-cli restore googledrive
@@ -498,3 +496,5 @@ alacritty -e rclone sync /mnt/Data/Archived ode-tup:Archived/ -P
 crontab -e
 clear
 exit
+v .config/i3/confnig
+v .config/i3/config
