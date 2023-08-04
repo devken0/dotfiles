@@ -1,4 +1,3 @@
-perl-rename
 cd /mnt/OneDrive/
 mkdir Working
 mkdir Final
@@ -498,3 +497,4 @@ crontab -e
 clear
 exit
 rclone sync /mnt/Data/Archived/ ode-tup:Archived -P
+alacritty --help
