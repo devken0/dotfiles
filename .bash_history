@@ -1,6 +1,3 @@
-rm -r 01-admin/ 05-templates/ desktop.ini .dropbox .Trash-1000/ .stfolder.removed-20230428-183741/
-cd .config/i3/config
-v .config/i3/config
 crontab -e
 rclone --help
 rclone sync ~/Dropbox/ /mnt/OneDrive
@@ -498,3 +495,6 @@ exit
 ls -al
 clear
 exit
+crontab -e
+htop
+xprop
