@@ -1,4 +1,3 @@
-clear
 exit
 cd /mnt
 ls 
@@ -498,3 +497,4 @@ crontab -e
 cd
 ls -al
 rclone sync Development/ /mnt/Data/Development -P
+rclone mount --daemon --vfs-cache-mode full od-tup: /mnt/OneDrive/
