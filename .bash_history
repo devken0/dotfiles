@@ -1,5 +1,3 @@
-clear
-exit
 ls
 ls -l
 perl-rename
@@ -498,3 +496,5 @@ exit
 v .config/i3/config
 clear
 exit
+mkdir Encrypt
+sudo mkdir Encrypt
