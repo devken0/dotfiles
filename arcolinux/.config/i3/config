@@ -399,6 +399,10 @@ exec --no-startup-id nm-applet
 
 exec --no-startup-id dropbox start
 
+## deja-dup
+
+exec --no-startup-id deja-dup --backup
+
 ## volume
 
 exec --no-startup-id volumeicon
