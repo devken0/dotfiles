@@ -1,16 +1,3 @@
-cd Repos
-cd sh 
-l
-crontab -e
-crontab --help
-crontab -l
-v git-backup/dotfiles-backup.sh 
-ls -al
-v git-backup/sh-backup.sh 
-clear
-exoit
-exit
-v .config/i3/config
 v .config/i3/i3status.conf 
 clear
 exit
@@ -496,5 +483,18 @@ crontab -e
 clear
 exit
 v .config/i3/config
+clear
+exit
+v .config/i3/config
+crontab -e
+v .config/i3/config
+cd Repos
+cd sh 
+cd git-backup
+v asm-backup.sh 
+./asm-backup.sh 
+claer
+ls -al
+v java-backup.sh 
 clear
 exit
