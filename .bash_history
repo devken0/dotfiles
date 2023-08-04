@@ -1,6 +1,3 @@
-clear
-luckybackup --help
-cd .luckyBackup/
 ls 
 cd profiles
 ls
@@ -496,5 +493,8 @@ rclone config
 clear
 exit
 rclone config
+clear
+exit
+v .config/i3/config
 clear
 exit
