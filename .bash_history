@@ -1,6 +1,3 @@
-ls -al
-clear
-v .config/i3/i3status.conf
 clear
 exit
 yay
@@ -497,4 +494,7 @@ clear
 exit
 deja-dup --help
 deja-dup --version
+exit
+v .config/i3/config
+clear
 exit
