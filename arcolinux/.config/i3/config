@@ -401,7 +401,7 @@ exec --no-startup-id dropbox start
 
 ## deja-dup
 
-exec --no-startup-id deja-dup --backup
+#exec --no-startup-id deja-dup --backup
 
 ## volume
 
