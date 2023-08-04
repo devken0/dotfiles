@@ -1,5 +1,4 @@
 v .config/i3/i3status.conf
-v .config/i3/i3status.conf
 clear
 exit
 cd Dropbox/Cheatsheets/
@@ -498,3 +497,4 @@ v .config/i3/config
 crontab -e
 clear
 exit
+alacritty
