@@ -4,7 +4,6 @@
 * * * * * rclone sync ~/Dropbox /mnt/Data/Dropbox
 * * * * * rclone sync ~/Repos /mnt/Data/Repos
 * * * * * rclone sync ~/Development /mnt/Data/Development
-@hourly rclone sync od-tup:Shared/ /mnt/Data/Shared
-@hourly rclone sync od-tup:School/ /mnt/Data/School
+@reboot sleep 60 && rclone sync od-tup:Shared/ /mnt/Data/Shared
+@reboot sleep 60 && rclone sync od-tup:School/ /mnt/Data/School
 #@reboot sleep 300 && date >> ~/date.txt
-@reboot date >> ~/date.txt
