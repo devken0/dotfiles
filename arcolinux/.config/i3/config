@@ -364,6 +364,7 @@ exec --no-startup-id syncthing -no-browser &
 ## rclone
 
 exec_always --no-startup-id rclone mount --daemon --vfs-cache-mode full od-tup: /mnt/OneDrive/ 
+exec_always --no-startup-id rclone mount --daemon --vfs-cache-mode full ode-tup: /mnt/OneDrive-Backup/ 
 
 ## mounting sshfs
 
