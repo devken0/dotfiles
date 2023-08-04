@@ -1,5 +1,3 @@
-yay
-ls
 ls 0al
 ls -l
 ls -a
@@ -498,3 +496,5 @@ exit
 crontab -e
 clear
 exit
+rclone sync od-tup:School/ /mnt/Data/School
+rclone sync od-tup:School/ /mnt/Data/School -P
