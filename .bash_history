@@ -1,22 +1,3 @@
-clear
-exit
-crontab -e
-clear
-exit
-ls -l
-ls -a
-cd Desktop
-v .config/mimeapps.list 
-v .config/user-dirs.dirs
-cd Dropbox
-v .config/user-dirs.dirs
-ls
-ls -l
-perl-rename
-cd .config/i3/
-v cheatsheet.md 
-cd ~/Repos/sh
-ls -ao
 cd git-backup/
 v sh-backup.sh 
 cd ..
@@ -498,3 +479,22 @@ sudo mkdir Encrypt
 sudo rm -r Encrypt
 clear
 exit
+v .config/i3/config
+rclone config
+clear
+exit
+rclone config
+v .config/i3/config
+exit
+clear
+exit
+rclone mount --daemon --vfs-cache-mode full ode-tup: /mnt/Encrypted
+rclone mount ode-tup: /mnt/Encrypted
+rclone mount
+sudo rclone mount --daemon 
+rclone mount --daemon --vfs-cache-mode full ode-tup: /mnt/Encrypt
+rclone mount --daemon --vfs-cache-mode full ode-tup: /mnt/Encrypt/
+fusermount --help
+rclone mount --vfs-cache-mode full ode-tup: /mnt/Encrypt/
+rclone mount --vfs-cache-mode full ode-tup: ~/New
+v .config/i3/config
