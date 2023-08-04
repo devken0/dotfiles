@@ -1,9 +1,3 @@
-ls
-ls 
-luckybackup --silent
-luckybackup --help
-luckybackup 
-luckybackup backup-to-onedrive
 clear
 luckybackup --help
 cd .luckyBackup/
@@ -496,5 +490,11 @@ v .config/i3/confnig
 v .config/i3/config
 alacritty -e rclone sync od-tup:Shared/ /mnt/Data/Shared -P; rclone sync od-tup:School/ /mnt/Data/School -P; rclone sync /mnt/Data/Archived ode-tup:Archived/ -P; rclone sync /mnt/Data/Development ode-tup:Development/ -P; rclone sync /mnt/Data/Dropbox ode-tup:Dropbox -P; rclone sync /mnt/Data/Gallery ode-tup:Gallery -P; rclone sync /mnt/Data/Music ode-tup:Music/ -P; rclone sync /mnt/Data/Repos ode-tup:Repos -P; rclone sync /mnt/Data/Sounds ode-tup:Sounds -P 
 crontab -e
+clear
+exit
+rclone config
+clear
+exit
+rclone config
 clear
 exit
