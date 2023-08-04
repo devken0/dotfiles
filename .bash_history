@@ -1,5 +1,3 @@
-cp uptime.sh ~/.config/i3/scripts/uptime.sh
-cd ~/.confi
 cd i3
 ls -al
 cd scripts
@@ -498,3 +496,5 @@ v .config/i3/config
 clear
 ls -al
 rclone mount --vfs-cache-mode full od-tup: /mnt/Encrypt/
+mkdir OneDrive-Backup
+sudo mkdir OneDrive-Backup
