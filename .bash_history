@@ -1,6 +1,3 @@
-exit
-cd /mnt
-ls 
 cd OneDrive/
 ls -al
 v .config/i3/i3status.conf
@@ -498,3 +495,6 @@ cd
 ls -al
 rclone sync Development/ /mnt/Data/Development -P
 rclone mount --daemon --vfs-cache-mode full od-tup: /mnt/OneDrive/
+v .config/i3/ocnfig
+v .config/i3/config
+crontab -e
