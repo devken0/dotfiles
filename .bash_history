@@ -1,12 +1,3 @@
-v .config/i3/i3status.conf
-clear
-exit
-cd Dropbox/Cheatsheets/
-ls -al
-okular cheatsheet-_-font-awesome.pdf 
-v .config/i3/i3status.conf
-v .config/i3/config
-clear
 exit
 sudo pacman -Ss font-awesome
 v .config/i3/i3status
@@ -498,3 +489,12 @@ crontab -e
 clear
 exit
 alacritty
+v .config/i3/config
+crontab -e
+v try.sh
+chmod +x try.sh
+./try.sh
+rm try.sh 
+ls -al
+clear
+exit
