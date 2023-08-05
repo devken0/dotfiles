@@ -1,7 +1,3 @@
-ls -al
-clear
-exit
-cd OneDrive/
 cd /mnt/OneDrive/
 ls
 cd Personal/
@@ -498,3 +494,7 @@ cd Dropbox/
 cd 02-backups/
 mkdir 07-pacman-packages
 ls -al
+v .config/i3/conifg
+v .config/i3/config
+clear
+exit
