@@ -361,6 +361,10 @@ exec --no-startup-id keepassxc
 
 exec --no-startup-id syncthing -no-browser &
 
+## pacman
+
+exec_always --no-startup-id pacman -Qet | awk '{print $1}' > /home/mc/Dropbox/02-backups/07-pacman-packages/packages.txt
+
 ## rclone
 
 exec_always --no-startup-id rclone mount --daemon --vfs-cache-mode full od-tup: /mnt/OneDrive/ 
