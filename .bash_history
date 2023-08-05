@@ -1,6 +1,3 @@
-crontab -e
-rclone --help
-rclone sync ~/Dropbox/ /mnt/OneDrive
 rclone sync ~/Dropbox/ /mnt/OneDrive test -P
 rclone sync ~/Dropbox od-tup:Personal_Files/Documents/ -P
 cleawr
@@ -498,3 +495,6 @@ exit
 crontab -e
 htop
 xprop
+v .config/i3/config
+clear
+exit
