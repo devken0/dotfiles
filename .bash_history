@@ -1,7 +1,3 @@
-rclone sync ~/Dropbox od-tup:Personal_Files/Documents/ -P
-cleawr
-clear
-exit
 rclone sync ~/Dropbox od-tup:Backups/dropbox/ -P
 crontab -e
 clear
@@ -498,3 +494,7 @@ v .config/i3/config
 clear
 exit
 pacman -Qet | awk '{print $1}' > packages.txt
+ls -al
+v packages.txt 
+clear
+exit
