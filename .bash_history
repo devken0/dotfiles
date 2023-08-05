@@ -1,5 +1,3 @@
-cd /mnt/OneDrive/
-ls
 cd Personal/
 cd ..
 ls -al
@@ -498,3 +496,5 @@ v .config/i3/conifg
 v .config/i3/config
 clear
 exit
+ramger
+ranger
