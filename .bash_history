@@ -1,8 +1,3 @@
-htop
-ranger
-htop
-cmatriz
-cmatrix
 clear
 sudo pacman -Ss cmatrix
 sudo pacman -Ss btop
@@ -498,3 +493,8 @@ crontab -e
 clera
 exit
 crontab -e
+v .config/i3/config
+cleawr
+crontab -e
+clear
+exit
