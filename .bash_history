@@ -1,12 +1,3 @@
-rclone sync ~/Dropbox od-tup:Backups/dropbox/ -P
-crontab -e
-clear
-exit
-crontab -e
-clear
-exit
-swallow ./Eternum.sh
-crontab -e
 clear
 exit
 ls -al
@@ -496,5 +487,14 @@ exit
 pacman -Qet | awk '{print $1}' > packages.txt
 ls -al
 v packages.txt 
+clear
+exit
+v .bashrc
+clear
+exit
+v .bashrc
+pacman 
+pacman -Qet | awk '{print $1}' > packages.txt
+ls -al
 clear
 exit
