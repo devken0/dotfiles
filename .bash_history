@@ -1,9 +1,3 @@
-cd ..
-ls -al
-clear
-exit
-duplicati
-clear
 exit
 htop
 ranger
@@ -498,3 +492,9 @@ exit
 ramger
 ranger
 htop
+crontab -e
+clear
+exit
+crontab -e
+clera
+exit
