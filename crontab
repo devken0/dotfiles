@@ -16,5 +16,4 @@
 * * * * * rclone sync /mnt/Data/School od-tup:School
 * * * * * rclone sync ~/Dropbox ode-tup:Dropbox
 * * * * * rclone sync ~/Repos ode-tup:Repos
-
-#@reboot sleep 300 && date >> ~/date.txt
+* * * * * rclone sync ~/Development ode-tup:Development
