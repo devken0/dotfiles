@@ -1,4 +1,3 @@
-rclone sync ~/Dropbox/ /mnt/OneDrive test -P
 rclone sync ~/Dropbox od-tup:Personal_Files/Documents/ -P
 cleawr
 clear
@@ -498,3 +497,4 @@ xprop
 v .config/i3/config
 clear
 exit
+pacman -Qet | awk '{print $1}' > packages.txt
