@@ -1,4 +1,3 @@
-cd Personal/
 cd ..
 ls -al
 clear
@@ -498,3 +497,4 @@ clear
 exit
 ramger
 ranger
+htop
