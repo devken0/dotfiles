@@ -1,10 +1,20 @@
+## git backup
 * * * * * ~/Repos/sh/git-backup/sh-backup.sh
 * * * * * ~/Repos/sh/git-backup/dotfiles-backup.sh
 * * * * * ~/Repos/sh/git-backup/asm-backup.sh
+
+## i3 scripts 
 * * * * * ~/.config/i3/scripts/uptime.sh
+
+## rclone local backup 
 * * * * * rclone sync ~/Dropbox /mnt/Data/Dropbox
 * * * * * rclone sync ~/Repos /mnt/Data/Repos
 * * * * * rclone sync ~/Development /mnt/Data/Development
-* * * * * rclone sync od-tup:School /mnt/Data/School
 * * * * * rclone sync od-tup:Shared /mnt/Data/Shared
+
+## rclone remote backup
+* * * * * rclone sync /mnt/Data/School od-tup:School
+* * * * * rclone sync ~/Dropbox ode-tup:Dropbox
+* * * * * rclone sync ~/Repos ode-tup:Repos
+
 #@reboot sleep 300 && date >> ~/date.txt
