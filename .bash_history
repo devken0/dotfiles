@@ -1,4 +1,3 @@
-exit
 htop
 ranger
 htop
@@ -498,3 +497,4 @@ exit
 crontab -e
 clera
 exit
+crontab -e
