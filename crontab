@@ -13,7 +13,7 @@
 * * * * * rclone sync od-tup:Shared /mnt/Data/Shared
 
 ## rclone remote backup
-* * * * * rclone sync /mnt/Data/School od-tup:School
-* * * * * rclone sync ~/Dropbox ode-tup:Dropbox
-* * * * * rclone sync ~/Repos ode-tup:Repos
-* * * * * rclone sync ~/Development ode-tup:Development
+#* * * * * rclone sync /mnt/Data/School od-tup:School
+#* * * * * rclone sync ~/Dropbox ode-tup:Dropbox
+#* * * * * rclone sync ~/Repos ode-tup:Repos
+#* * * * * rclone sync ~/Development ode-tup:Development
