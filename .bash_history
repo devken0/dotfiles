@@ -1,17 +1,3 @@
-clear
-exit
-ls -al
-clear
-exi
-exit
-ls 
-ls -al
-clear
-exit
-ls 
-cd mnt
-cd /mnt
-cd OneDrive/
 ls -al
 clear
 exit
@@ -498,3 +484,17 @@ pacman -Qet | awk '{print $1}' > packages.txt
 ls -al
 clear
 exit
+pacman -Qet | awk '{print $1}' > packages.txt
+cd Dropbox/02-backups/
+cd 07
+cd 07-pacman-packages/
+ls -al
+v packages.txt 
+clear
+exit
+clear
+exit
+cd Dropbox/
+cd 02-backups/
+mkdir 07-pacman-packages
+ls -al
