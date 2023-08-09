@@ -1,7 +1,3 @@
-cd asm 
-ls
-ls -al
-cd ..
 clear
 exit
 v .config/i3/config
@@ -498,3 +494,7 @@ clear
 exit
 rclone config
 clear
+rontab -e
+crontab -e
+clear
+exit
