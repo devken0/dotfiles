@@ -1,6 +1,3 @@
-sudo pacman -Ss btop
-sudo pacman -S btop
-btop
 btop --help
 btop -v
 sudo pacman -Rnsc btop
@@ -498,3 +495,6 @@ clear
 exit
 pacman
 yay
+v .config/i3/config
+clear
+exit
