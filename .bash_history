@@ -1,5 +1,3 @@
-btop --help
-btop -v
 sudo pacman -Rnsc btop
 htop
 cd Repos
@@ -498,3 +496,5 @@ v .config/i3/config
 v .config/i3/config
 clear
 exit
+ventoy
+ls -al
