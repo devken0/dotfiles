@@ -1,7 +1,3 @@
-exit
-v .config/i3/config
-clear
-ranger
 btop --help
 btop -v
 sudo pacman -Rnsc btop
@@ -498,3 +494,7 @@ crontab -e
 clear
 exit
 rclone config
+v .config/i3/config
+v .config/i3/config
+clear
+exit
