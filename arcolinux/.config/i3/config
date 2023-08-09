@@ -368,7 +368,6 @@ exec_always --no-startup-id pacman -Qet | awk '{print $1}' > /home/mc/Dropbox/02
 ## rclone
 
 exec_always --no-startup-id rclone mount --daemon --vfs-cache-mode full od-tup: /mnt/OneDrive/ 
-exec_always --no-startup-id rclone mount --daemon --vfs-cache-mode full ode-tup: /mnt/OneDrive-Backup/ 
 
 ## mounting sshfs
 
