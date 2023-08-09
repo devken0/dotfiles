@@ -10,11 +10,6 @@
 * * * * * rclone sync od-tup:Shared /mnt/Data/Shared
 * * * * * rclone sync od-tup:School /mnt/Data/School
 
-## rclone remote backup
-#* * * * * rclone sync ~/Dropbox ode-tup:Dropbox
-#* * * * * rclone sync ~/Repos ode-tup:Repos
-#* * * * * rclone sync ~/Development ode-tup:Development
-
 ## i3 scripts 
 * * * * * ~/.config/i3/scripts/uptime.sh
 
