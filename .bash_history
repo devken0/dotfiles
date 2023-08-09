@@ -1,4 +1,3 @@
-clear
 exit
 v .config/i3/config
 clear
@@ -498,3 +497,4 @@ rontab -e
 crontab -e
 clear
 exit
+rclone config
