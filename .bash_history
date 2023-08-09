@@ -1,5 +1,3 @@
-htop
-cd Repos
 cd asm 
 ls
 ls -al
@@ -498,3 +496,5 @@ exit
 crontab -e
 clear
 exit
+rclone config
+clear
