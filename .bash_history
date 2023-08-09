@@ -1,4 +1,3 @@
-sudo pacman -Ss cmatrix
 sudo pacman -Ss btop
 sudo pacman -S btop
 btop
@@ -498,3 +497,4 @@ crontab -e
 clear
 exit
 pacman
+yay
