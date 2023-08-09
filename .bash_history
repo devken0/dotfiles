@@ -1,11 +1,3 @@
-sudo pacman -Rnsc btop
-htop
-cd Repos
-cd asm 
-ls
-cd Repos/sh
-cd git-backup
-v baregit-backup.sh 
 v dotfiles-backup.sh 
 v sh-backup.sh 
 cd ~/Repos/asm
@@ -498,3 +490,11 @@ clear
 exit
 ventoy
 ls -al
+ventoy
+cd ventoy-1.0.91/
+ls
+ll
+sudo ./VentoyGUI.x86_64 
+ls -al
+chmod +x VentoyGUI.x86_64 
+swallow ./VentoyGUI.x86_64 
