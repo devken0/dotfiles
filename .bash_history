@@ -1,6 +1,3 @@
-btop --help
-btop -v
-sudo pacman -Rnsc btop
 htop
 cd Repos
 cd asm 
@@ -496,5 +493,8 @@ exit
 pacman
 yay
 v .config/i3/config
+clear
+exit
+crontab -e
 clear
 exit
