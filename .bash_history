@@ -1,4 +1,3 @@
-v dotfiles-backup.sh 
 v sh-backup.sh 
 cd ~/Repos/asm
 ls 
@@ -498,3 +497,4 @@ sudo ./VentoyGUI.x86_64
 ls -al
 chmod +x VentoyGUI.x86_64 
 swallow ./VentoyGUI.x86_64 
+ip a
