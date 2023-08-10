@@ -1,5 +1,3 @@
-v sh-backup.sh 
-cd ~/Repos/asm
 ls 
 cd h
 cd ..
@@ -498,3 +496,5 @@ ls -al
 chmod +x VentoyGUI.x86_64 
 swallow ./VentoyGUI.x86_64 
 ip a
+dmesg | grep -i tpm
+sudo dmesg | grep -i tpm
