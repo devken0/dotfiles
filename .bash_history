@@ -1,6 +1,3 @@
-cd sh
-cd git-backup/
-ls -al
 v asm-backup.sh 
 cd Repos/sh/git-backup/
 ./asm-backup.sh 
@@ -495,6 +492,9 @@ swallow ./VentoyGUI.x86_64
 ip a
 dmesg | grep -i tpm
 sudo dmesg | grep -i tpm
+crontab -e
+clear
+exit
 crontab -e
 clear
 exit
