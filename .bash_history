@@ -1,6 +1,3 @@
-cd Repos/sh/git-backup/
-./asm-backup.sh 
-cd Development/
 ls -al
 cd machine
 cd machine-language/
@@ -498,3 +495,6 @@ crontab -e
 clear
 exit
 mount | grep kdeconnect
+sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ ~/mnt
+sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt
+sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt/
