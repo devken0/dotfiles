@@ -1,4 +1,3 @@
-v asm-backup.sh 
 cd Repos/sh/git-backup/
 ./asm-backup.sh 
 cd Development/
@@ -498,3 +497,4 @@ exit
 crontab -e
 clear
 exit
+mount | grep kdeconnect
