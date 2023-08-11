@@ -1,6 +1,3 @@
-ls 
-cd h
-cd ..
 cd sh
 cd git-backup/
 ls -al
@@ -498,3 +495,6 @@ swallow ./VentoyGUI.x86_64
 ip a
 dmesg | grep -i tpm
 sudo dmesg | grep -i tpm
+crontab -e
+clear
+exit
