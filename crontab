@@ -4,11 +4,11 @@
 * * * * * ~/Repos/sh/git-backup/asm-backup.sh
 
 ## rclone local backup 
-* * * * * rclone sync ~/Dropbox /mnt/Data/Dropbox
-* * * * * rclone sync ~/Repos /mnt/Data/Repos
-* * * * * rclone sync ~/Development /mnt/Data/Development
-* * * * * rclone sync od-tup:Shared /mnt/Data/Shared
-* * * * * rclone sync od-tup:School /mnt/Data/School
+* * * * * rclone sync ~/Dropbox /mnt/Data/Backups/Dropbox
+* * * * * rclone sync ~/Repos /mnt/Data/Backups/Repos
+* * * * * rclone sync ~/Development /mnt/Data/Backups/Development
+* * * * * rclone sync od-tup:Shared /mnt/Data/Backups/Shared
+* * * * * rclone sync od-tup:School /mnt/Data/Backups/School
 
 ## i3 scripts 
 * * * * * ~/.config/i3/scripts/uptime.sh
