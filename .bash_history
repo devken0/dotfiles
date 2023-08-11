@@ -1,4 +1,3 @@
-ls -al
 cd machine
 cd machine-language/
 ranger
@@ -498,3 +497,4 @@ mount | grep kdeconnect
 sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ ~/mnt
 sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt
 sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt/
+netstat
