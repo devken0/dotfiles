@@ -1,6 +1,3 @@
-cd machine
-cd machine-language/
-ranger
 v sh-backup.sh 
 cd ~/Repos/asm
 ls 
@@ -498,3 +495,6 @@ sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,po
 sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt
 sshfs -o rw,nosuid,nodev,identityfile=$HOME/.config/kdeconnect/privateKey.pem,port=1740 kdeconnect@192.168.1.146:/ /mnt/
 netstat
+kdeconnect-cli -a
+clear
+exit
