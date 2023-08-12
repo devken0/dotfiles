@@ -1,4 +1,3 @@
-cd h
 cd ..
 cd sh
 cd git-backup/
@@ -498,3 +497,4 @@ exit
 yay
 sudo pacman -Ss etcher
 sudo pacman -S etcher-bin
+sudo dmesg | grep -i tpm
