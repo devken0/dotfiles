@@ -1,8 +1,3 @@
-cd ..
-cd sh
-cd git-backup/
-v asm-backup.sh 
-v ~/Repos/sh/git-backup/sh-backup.sh 
 cd Repos/
 cd asm
 ll
@@ -498,3 +493,8 @@ yay
 sudo pacman -Ss etcher
 sudo pacman -S etcher-bin
 sudo dmesg | grep -i tpm
+hdparm
+hdparm -i
+free
+gparted
+sudo hdparm -Tt /dev/sdd
