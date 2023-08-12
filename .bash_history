@@ -1,4 +1,3 @@
-v sh-backup.sh 
 cd ~/Repos/asm
 ls 
 cd h
@@ -498,3 +497,4 @@ netstat
 kdeconnect-cli -a
 clear
 exit
+yay
