@@ -1,11 +1,3 @@
-git init
-git branch -m main
-git remote add origin git@github.com:kozm-git/asm-git
-git add -u
-git commit -m "Updated assembly file"
-git config user.name "Kozm"
-git config user.email "kennedyonipa@gmail.com"
-eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/github_rsa
 git add *
 git commit -m "Added assembly file"
@@ -498,3 +490,11 @@ uname -ar
 cleawr
 clear
 exit
+clear
+exit
+cd bin
+ls -al
+./uninstall
+bash <(wget -O - https://thonny.org/installer-for-linux)
+clear
+ls -al
