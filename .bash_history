@@ -1,5 +1,3 @@
-cd ~/Repos/asm
-ls 
 cd h
 cd ..
 cd sh
@@ -498,3 +496,5 @@ kdeconnect-cli -a
 clear
 exit
 yay
+sudo pacman -Ss etcher
+sudo pacman -S etcher-bin
