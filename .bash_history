@@ -1,8 +1,3 @@
-cd Repos/
-cd asm
-ll
-clear
-ll 
 git init
 git branch -m main
 git remote add origin git@github.com:kozm-git/asm-git
@@ -498,3 +493,8 @@ hdparm -i
 free
 gparted
 sudo hdparm -Tt /dev/sdd
+uname -r
+uname -ar
+cleawr
+clear
+exit
