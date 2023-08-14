@@ -1,7 +1,3 @@
-git add *
-git commit -m "Added assembly file"
-git pull
-git push
 git push --set-upstream origin main
 ls -al
 sudo pacman -Rnsc btop
@@ -498,3 +494,7 @@ bash <(wget -O - https://thonny.org/installer-for-linux)
 clear
 ls -al
 sensors
+pacman -Ss rufus
+yay -Ss rufus
+clear
+exit
