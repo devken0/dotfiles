@@ -1,4 +1,3 @@
-ssh-add ~/.ssh/github_rsa
 git add *
 git commit -m "Added assembly file"
 git pull
@@ -498,3 +497,4 @@ ls -al
 bash <(wget -O - https://thonny.org/installer-for-linux)
 clear
 ls -al
+sensors
