@@ -1,5 +1,3 @@
-git push --set-upstream origin main
-ls -al
 sudo pacman -Rnsc btop
 htop
 cd Repos
@@ -496,5 +494,7 @@ ls -al
 sensors
 pacman -Ss rufus
 yay -Ss rufus
+clear
+exit
 clear
 exit
